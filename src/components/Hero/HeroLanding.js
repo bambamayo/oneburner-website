@@ -12,7 +12,7 @@ export default function HeroLanding() {
             Communicate effectively with Oneburner for easy collaboration, team
             work and remote work.
           </p>
-          <button className="hero-one__ctabtn m-0">
+          <button className="hero-one__ctabtn herolanding__ctabtn">
             <span className="hero-one__ctabtn-text">Start Free Trail</span>
             <img
               src={arrow}
