@@ -1,0 +1,10 @@
+.footerlogin {
+  &__text {
+    color: var(--color-text-secondary);
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6.4rem;
+  }
+}

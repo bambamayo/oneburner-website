@@ -1,0 +1,53 @@
+.contactsales {
+  background-color: var(--color-grey-bg);
+  padding: 8rem 0;
+
+  &__inner {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__contactform,
+  &__r {
+    flex-basis: 45%;
+  }
+
+  &__contactform {
+    background: var(--color-white);
+    box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.08);
+    padding: 6rem;
+  }
+
+  &__r {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &-header {
+      margin-bottom: 2rem;
+      font-size: 3rem;
+    }
+
+    &-subheader {
+      margin-bottom: 4rem;
+      font-size: 1.8rem;
+    }
+  }
+
+  &__locations {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+  }
+
+  &__location {
+    &-i {
+      font-size: 1.2rem;
+      display: block;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+.region {
+  background-color: rgba(204, 204, 204, 0.1);
+  text-align: center;
+  padding: 6rem 0;
+
+  &__header {
+    font-size: 4rem;
+    margin-bottom: 3rem;
+  }
+
+  &__subheader {
+    font-size: 2rem;
+
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 8rem;
+  }
+}
